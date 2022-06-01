@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display:ital,wght@0,800;1,600&family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -18,7 +20,7 @@
     <header class="header">
       <div class="title">
        <img src="./assets/logo.png" class="logo" alt="logo saturniidae">
-       <h1>SATURNIIDAE BORDADOS</h1>
+       <div data-aos="zoom-out"><h1>SATURNIIDAE BORDADOS</h1></div>
       </div>
       
       <nav class="navbar">
@@ -42,27 +44,29 @@
        <h2>¡Bienvenido/a a la tienda!</h2>
        <img src="./assets/banner.jpg" alt="fotos varias de productos" class="banner">
        <h3>Nuevos productos</h3>
-       <div class="productos">
-        <div class="card">
-         <img src="./assets/producto1.jpg" alt="bordado" style="width:100%">
-         <h1>Paradise Kiss</h1>
-         <p class="price">$$$</p>
-         <p>Técnica mixta: Bordado, pintura y pedrería. Montado en bastidor número 10</p>
-         <p><button>Añadir al carrito</button></p>
-        </div>
-        <div class="card">
-         <img src="./assets/producto2.jpg" alt="bordado" style="width:100%">
-         <h1>Howl's Moving Castle</h1>
-         <p class="price">$$$</p>
-         <p>Técnica mixta: Bordado y pintura</p>
-         <p><button>Añadir al carrito</button></p>
-        </div>
-        <div class="card">
-         <img src="./assets/producto3.jpg" alt="bordado" style="width:100%">
-         <h1>Calcifer</h1>
-         <p class="price">$$$</p>
-         <p>Llavero de 6cm</p>
-         <p><button>Añadir al carrito</button></p>
+       <div data-aos="zoom-in">
+        <div class="productos">
+         <div class="card">
+          <img src="./assets/producto1.jpg" alt="bordado" style="width:100%">
+          <h1>Paradise Kiss</h1>
+          <p class="price">$$$</p>
+          <p>Técnica mixta: Bordado, pintura y pedrería. Montado en bastidor número 10</p>
+          <p><button>Añadir al carrito</button></p>
+         </div>
+         <div class="card">
+          <img src="./assets/producto2.jpg" alt="bordado" style="width:100%">
+          <h1>Howl's Moving Castle</h1>
+          <p class="price">$$$</p>
+          <p>Técnica mixta: Bordado y pintura</p>
+          <p><button>Añadir al carrito</button></p>
+         </div>
+         <div class="card">
+          <img src="./assets/producto3.jpg" alt="bordado" style="width:100%">
+          <h1>Calcifer</h1>
+          <p class="price">$$$</p>
+          <p>Llavero de 6cm</p>
+          <p><button>Añadir al carrito</button></p>
+         </div>
         </div>
        </div>
     </main>
@@ -78,6 +82,9 @@
         </a>
        </div>
     </footer>
- </div>  
+ </div>
+ <script>
+  AOS.init();
+ </script>  
 </body>
 </html>
