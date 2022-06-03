@@ -1,23 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desafio</title>
+    <link rel="shortcut icon" href="./assets/favicon2.png">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display:ital,wght@0,800;1,600&family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ </head>
 
-<head>
-	<meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>DESAFIO</title>
-  <link rel="shortcut icon" href="./assets/favicon2.png">
-  <link href="./styles/style.css" rel="stylesheet" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Playfair+Display:ital,wght@0,800;1,600&family=Raleway:wght@100;300&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</head>
-
-<body>
- <div class="container">
-    <header class="header">
+ <body>
+  <div class="container-fluid p-0">
+   
+     <header class="header">
       <div class="title">
        <img src="./assets/logo.png" class="logo" alt="logo saturniidae">
        <div data-aos="zoom-out"><h1>SATURNIIDAE BORDADOS</h1></div>
@@ -38,11 +38,36 @@
           </a>
         </div>
       </nav>
-    </header>
+     </header>
     
-    <main class="main">
+     <main class="main">
        <h2>¡Bienvenido/a a la tienda!</h2>
-       <img src="./assets/banner.jpg" alt="fotos varias de productos" class="banner">
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/car1.png" class="d-block w-100" alt="imagen 1 de carrusel llavero">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/car2.png" class="d-block w-100" alt="imagen 2 del carrusel bordado">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/car3.png" class="d-block w-100" alt="imagen 3 del carrusel bordado">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
        <h3>Nuevos productos</h3>
        <div data-aos="zoom-in">
         <div class="productos">
@@ -69,9 +94,9 @@
          </div>
         </div>
        </div>
-    </main>
+     </main>
     
-    <footer class="footer">
+     <footer class="footer">
        <h4>SEGUIME EN REDES SOCIALES</h4>
        <div class="redes">
         <a href="https://www.facebook.com/ssaturniidae/">
@@ -81,10 +106,11 @@
         <img src="./assets/instagram.png" class="icono-redes">
         </a>
        </div>
-    </footer>
- </div>
- <script>
-  AOS.init();
- </script>  
-</body>
+     </footer>
+   
+  </div>
+  <script>AOS.init();</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+   
+ </body>
 </html>
