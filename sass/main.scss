@@ -1,7 +1,11 @@
 @import "./partials/vars";
 @import "./partials/reset";
+/* Body */
 @import "./partials/header";
-@import "./partials/body";
-@import "./partials/banner";
-@import "./partials/newin";
-@import "./partials/estilos";
+@import "./partials/mainsection";
+@import "./partials/footer";
+/* Navegacion */
+@import "./partials/gallery";
+@import "./partials/faq";
+/* Media queries */
+@import "./partials/media";

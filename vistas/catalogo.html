@@ -25,7 +25,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
           </li>
@@ -37,7 +37,7 @@
           </li>
         </ul>
         <img src="../assets/logo2.png" class="logo-desktop">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="../vistas/acercade.html">ACERCA DE MÍ</a>
           </li>
@@ -65,29 +65,59 @@
       <h2 class="text_shadows">Nuevos productos</h2>
     </div>
     
-      <div class="productos">
-       <div class="card">
-        <img src="../assets/producto1.jpg" alt="bordado">
-        <h1>Paradise Kiss</h1>
-        <p class="price">$$$</p>
-        <p></p>
-        <p><button>Añadir al carrito</button></p>
-       </div>
-       <div class="card">
-        <img src="../assets/producto2.jpg" alt="bordado">
-        <h1>Howl's Moving Castle</h1>
-        <p class="price">$$$</p>
-        <p></p>
-        <p><button>Añadir al carrito</button></p>
-       </div>
-       <div class="card">
-        <img src="../assets/producto3.jpg" alt="bordado">
-        <h1>Calcifer</h1>
-        <p class="price">$$$</p>
-        <p></p>
-        <p><button>Añadir al carrito</button></p>
-       </div>
+    <div class="container-fluid">
+      <div class="row">
+         <div class="col-md-12 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                  <img class="pic-1" src="../assets/producto1.jpg" alt="bordado" />
+                  <img class="pic-2" src="../assets/producto1.jpg">
+                </div>
+                
+                <div class="product-content">
+                    <h3 class="title">Paradise Kiss</h3>
+                    <div class="price">$$$</div>
+                    <p></p>
+                   <p><button>Añadir al carrito</button></p>
+                </div>
+            </div>
+         </div>
+
+         
+
+        <div class="col-md-12 col-sm-6">
+          <div class="product-grid">
+              <div class="product-image">
+                <img class="pic-1" src="../assets/producto2.jpg" alt="bordado"/>
+                <img class="pic-2" src="../assets/producto2.jpg">
+              </div>
+              
+              <div class="product-content">
+                  <h3 class="title">Howl's Moving Castle</h3>
+                  <div class="price">$$$</div>
+                  <p></p>
+                 <p><button>Añadir al carrito</button></p>
+              </div>
+          </div>
+        </div>
+
+      <div class="col-md-12 col-sm-6">
+        <div class="product-grid">
+            <div class="product-image">
+              <img class="pic-1" src="../assets/producto3.jpg" alt="bordado"/>
+              <img class="pic-2" src="../assets/producto3.jpg">
+            </div>
+            
+            <div class="product-content">
+                <h3 class="title">Calcifer</h3>
+                <div class="price">$$$</div>
+                <p></p>
+               <p><button>Añadir al carrito</button></p>
+            </div>
+        </div>
       </div>
+        
+    </div>
   </main>
   
  <script>AOS.init();</script>

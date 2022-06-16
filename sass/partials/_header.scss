@@ -2,13 +2,13 @@ header .title {
   display: flex;
   place-content: center;
   margin-bottom: -20px;
-  
 }
-
- .navbar {
+  
+.navbar {
     background: rgb(242,208,196);
     background: $color-gradientNav;
     height: 70px;
+    
   
   
      .navbar-nav {
@@ -19,14 +19,16 @@ header .title {
      .nav-item {
      margin-left: 10px;
      margin-right: 10px;
-     
+     font-family: 'Lato', sans-serif;
+     font-weight: 700;
+     color: rgba(0, 0, 0, 0.699);
         &:hover {
           border-bottom:3px solid #F28080;
         }
-     }
+       }
      .logo-desktop {
       height: 120px;
-     }
+      }
   
      .logo-mobile {
      height: 120px;
@@ -35,4 +37,7 @@ header .title {
      .title-mobile {
      display: none;
      }
-    }
+     .carrito {
+      opacity: 87%;
+     }
+  }

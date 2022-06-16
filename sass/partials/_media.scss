@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+
+header .title {
+     display: none;
+    }
+  
+.navbar {
+         height: 100%;
+         background: rgb(242,208,196);
+         background: linear-gradient(97deg, rgba(242,208,196,1) 0%, rgba(205,240,234,1) 100%);
+  
+     ul {
+         display: flex;
+         flex-direction: column;
+         justify-content: start;
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+         }
+     li:hover {
+         background: #F28080;
+         }
+  
+     .logo-desktop {
+         display: none;
+         }
+     .logo-mobile {
+         display: flex;
+         }
+     .title-mobile {
+         display: flex;
+         width: 50%;
+         }
+    }
+  
+.slide .container-btn {
+      display: none;
+  }
+
+  
+.gallery {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+      }
+}
