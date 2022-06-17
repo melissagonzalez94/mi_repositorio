@@ -1,8 +1,11 @@
-header .title {
-  display: flex;
-  place-content: center;
-  margin-bottom: -20px;
-}
+header 
+    .title {
+     display: flex;
+     place-content: center;
+     margin-bottom: -20px;}
+    h1 {
+      display: none;
+    }
   
 .navbar {
     background: rgb(242,208,196);

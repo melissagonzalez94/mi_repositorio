@@ -1,0 +1,22 @@
+.buttonViolet {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #F2E17E;
+    background-color: #4E46A6;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px; 
+
+    &:hover {
+        opacity: 0.7; }
+   }
+.btnVioletLight {
+    @extend .buttonViolet;
+    background-color: #A9A4E3;
+}
+.btnVioletMedium {
+    @extend .buttonViolet;
+    background-color: #685DDE;
+}

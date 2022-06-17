@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Desafio</title>
-    <link rel="shortcut icon" href="./assets/favicon2.png" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Titulo, descripcion, keywords -->
+    <title>Saturniidae</title>
+    <meta name="description" content="Ejemplo de Palabras Clave y Programación">
+    <meta name="keywords"  content="HTML, ASP, JS, META, PALABRAS CLAVE, EJEMPLO">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon2.png"/>
+    <!-- CSS -->
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display:wght@600&family=Raleway:wght@200;500&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Playfair+Display:wght@600&family=Raleway:wght@200;500&display=swap" rel="stylesheet"/>
   </head>
 
   <body>
     <header>
       <!-- Nombre y logo de la pagina -->
+      <h1>Saturniidae</h1>
       <div class="title">
         <div data-aos="zoom-in"><img src="./assets/title.png" /></div>
       </div>
@@ -112,7 +114,7 @@
             <img src="./assets/car1.png" class="d-block w-100" />
           </div>
           <div class="container-btn">
-            <a href="./vistas/contacto.html" class="btn btn-lg btn-primary"
+            <a href="./vistas/contacto.html" class="btn btn-lg"
               >Pedí tu diseño personalizado</a
             >
           </div>
@@ -148,17 +150,17 @@
       <div class="container-fluid">
         <div class="row">
            <div class="col-md-4 col-sm-6">
-              <div class="product-grid">
-                  <div class="product-image">
+              <div class="card">
+                  <div class="card-image">
                     <img class="pic-1" src="./assets/producto1.jpg" alt="bordado" />
                     <img class="pic-2" src="assets/producto1.jpg">
                   </div>
                   
-                  <div class="product-content">
-                      <h3 class="title">Paradise Kiss</h3>
+                  <div class="card-content">
+                      <h3 class="card-title">Paradise Kiss</h3>
                       <div class="price">$$$</div>
-                      <p></p>
-                     <p><button>Añadir al carrito</button></p>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn">Añadir al carrito</a>
                   </div>
               </div>
            </div>
@@ -166,33 +168,33 @@
            
   
           <div class="col-md-4 col-sm-6">
-            <div class="product-grid">
-                <div class="product-image">
+            <div class="card">
+                <div class="card-image">
                   <img class="pic-1" src="./assets/producto2.jpg" alt="bordado"/>
                   <img class="pic-2" src="assets/producto2.jpg">
                 </div>
                 
-                <div class="product-content">
-                    <h3 class="title">Howl's Moving Castle</h3>
+                <div class="card-content">
+                    <h3 class="card-title">Howl's Moving Castle</h3>
                     <div class="price">$$$</div>
-                    <p></p>
-                   <p><button>Añadir al carrito</button></p>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn">Añadir al carrito</a>
                 </div>
             </div>
           </div>
   
         <div class="col-md-4 col-sm-6">
-          <div class="product-grid">
-              <div class="product-image">
+          <div class="card">
+              <div class="card-image">
                 <img class="pic-1" src="./assets/producto3.jpg" alt="bordado"/>
                 <img class="pic-2" src="assets/producto3.jpg">
               </div>
               
-              <div class="product-content">
-                  <h3 class="title">Calcifer</h3>
+              <div class="card-content">
+                  <h3 class="card-title">Calcifer</h3>
                   <div class="price">$$$</div>
-                  <p></p>
-                 <p><button>Añadir al carrito</button></p>
+                  <p class="card-text"></p>
+                  <a href="#" class="btn">Añadir al carrito</a>
               </div>
           </div>
         </div>
@@ -218,7 +220,7 @@
                   placeholder="Email"
                 />
               </div>
-              <button type="submit" class="btn2 btn-primary">
+              <button type="submit" class="btn2">
                 Suscribirme
               </button>
             </form>
@@ -227,17 +229,13 @@
       </div>
     </main>
 
-    <footer class="footer">
-      <!-- Redes sociales -->
-      <h4>SEGUIME EN REDES SOCIALES</h4>
-      <div class="redes">
-        <a href="https://www.facebook.com/ssaturniidae/">
-          <img src="./assets/facebook.png" class="icono-redes" />
-        </a>
-        <a href="https://www.instagram.com/ssaturniidae/">
-          <img src="./assets/instagram.png" class="icono-redes" />
-        </a>
-      </div>
+    <footer id="foo">
+       <!-- Redes sociales -->
+       <h4 class="subtitlesFont">SEGUIME EN REDES SOCIALES</h4>
+       <div class="footerLinks">
+        <a href="https://www.instagram.com/ssaturniidae/"><i class="bi bi-instagram btnInstagram"></i></a>
+        <a href="https://www.facebook.com/ssaturniidae/"><i class="bi bi-facebook btnFacebook"></i></a>
+       </div>
     </footer>
     
     <!-- Script animaciones -->

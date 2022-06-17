@@ -1,0 +1,12 @@
+$redes: (
+	instagram: #A649F5,
+	facebook: #4a328e 
+);
+
+.btnInstagram {
+    color: map-get($redes, instagram);
+}
+
+.btnFacebook {
+    color: map-get($redes, facebook);
+}

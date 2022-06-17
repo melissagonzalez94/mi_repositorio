@@ -1,12 +1,14 @@
-footer {
+#foo {
       h4 {
          font-family: 'Raleway', sans-serif;
          font-style: normal;
          font-weight: 600;
+         margin-left: 15px;
         }
       
-     .icono-redes {
-         width: 2rem;
+      a {
+         color: black;
+         font-size: 2rem;
          margin-left: 10px;
         }
 }
