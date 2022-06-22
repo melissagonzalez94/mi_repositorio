@@ -148,7 +148,7 @@ body {
       transform: translateX(100%); }
     .card .card-image .pic-2 {
       width: 100%;
-      height: 100%;
+      height: auto;
       transform: translateX(-101%);
       position: absolute;
       top: 0;
@@ -292,11 +292,86 @@ body {
   grid-row-end: 9; }
 
 .faq {
-  color: #383838;
-  font-family: 'Lato', sans-serif;
-  font-size: 38px;
+  color: #8A67A1;
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px;
   text-align: center;
-  margin: 10px; }
+  margin-top: 70px; }
+
+.accordion {
+  max-width: 680px;
+  margin: 50px auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1); }
+  .accordion .accordion-button {
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.658);
+    background-color: #d68fe0b2; }
+  .accordion .accordion-body {
+    background-color: #C3F2BB; }
+    .accordion .accordion-body a {
+      color: #30008F; }
+
+.about {
+  width: 100%;
+  padding: 78px 0px; }
+  .about img {
+    height: auto;
+    width: 420px; }
+  .about .about-text {
+    width: 550px; }
+  .about .main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .about .about-title {
+    color: #8A67A1;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    margin-bottom: 20px; }
+  .about .about-subtitle {
+    font-size: 25px; }
+  .about p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 25px; }
+
+.contact-title {
+  color: #8A67A1;
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px; }
+
+.lead {
+  color: rgba(0, 0, 0, 0.747);
+  margin-top: 10px; }
+
+.contact-body {
+  margin: 40px;
+  background-color: #C3F2BB; }
+  .contact-body .form-label {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.651);
+    text-align: center; }
+  .contact-body .btn {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #30008F;
+    font-family: 'Lato', sans-serif;
+    background-color: #8A67A1;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px; }
+    .contact-body .btn:hover {
+      opacity: 0.7; }
 
 /* Media queries */
 @media (max-width: 600px) {
