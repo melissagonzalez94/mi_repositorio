@@ -1,14 +1,22 @@
-#foo {
+footer {
       h4 {
          font-family: 'Raleway', sans-serif;
          font-style: normal;
          font-weight: 600;
-         margin-left: 15px;
+         text-align: center;
+         margin-top: 10px;
         }
-      
-      a {
-         color: black;
-         font-size: 2rem;
-         margin-left: 10px;
+      .footerLinks {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         
+         
+          a {
+           color: black;
+           font-size: 2rem;
+           padding: 5px;
+           margin: 8px;
         }
+}
 }

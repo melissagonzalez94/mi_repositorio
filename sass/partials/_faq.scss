@@ -1,9 +1,9 @@
 .faq {
     color: #8A67A1;
     font-family: 'DM Serif Display', serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 60px;
   }
 .accordion {
   max-width: 680px;
@@ -12,6 +12,7 @@
     
       .accordion-button {
         font-family: 'Lato', sans-serif;
+        font-size: 1.25rem;
         color: rgba(0, 0, 0, 0.658);
         background-color: #d68fe0b2;
       }

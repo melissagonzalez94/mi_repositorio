@@ -71,9 +71,9 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
-    margin: 30px;
+    margin: 25px;
     padding: 20px;
     letter-spacing: 0.4rem;
     color: #E37483; }
@@ -114,7 +114,7 @@ body {
     margin-top: 8px;
     color: rgba(0, 0, 0, 0.904); }
   .card .price {
-    color: grey;
+    color: #464646;
     font-size: 18px; }
   .card .btn {
     border: none;
@@ -177,21 +177,27 @@ body {
   .newsletter form .margin-below {
     margin-bottom: 1.2rem; }
 
-#foo h4 {
+footer h4 {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 600;
-  margin-left: 15px; }
+  text-align: center;
+  margin-top: 10px; }
 
-#foo a {
-  color: black;
-  font-size: 2rem;
-  margin-left: 10px; }
+footer .footerLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  footer .footerLinks a {
+    color: black;
+    font-size: 2rem;
+    padding: 5px;
+    margin: 8px; }
 
 /* Navegacion */
 .container-gallery {
   width: 80%;
-  margin: 2rem auto; }
+  margin: 70px auto; }
 
 .gallery {
   display: grid;
@@ -244,9 +250,9 @@ body {
 .faq {
   color: #8A67A1;
   font-family: 'DM Serif Display', serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-align: center;
-  margin-top: 70px; }
+  margin-top: 60px; }
 
 .accordion {
   max-width: 680px;
@@ -254,6 +260,7 @@ body {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1); }
   .accordion .accordion-button {
     font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.658);
     background-color: #d68fe0b2; }
   .accordion .accordion-body {
@@ -261,41 +268,27 @@ body {
     .accordion .accordion-body a {
       color: #30008F; }
 
-.about {
-  width: 100%;
-  padding: 78px 0px; }
-  .about img {
-    height: auto;
-    width: 420px; }
-  .about .about-text {
-    width: 550px; }
-  .about .main {
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; }
-  .about .about-title {
-    color: #8A67A1;
-    text-align: center;
-    font-family: 'DM Serif Display', serif;
-    font-size: 50px;
-    margin-bottom: 20px; }
-  .about .about-subtitle {
-    font-size: 25px; }
-  .about p {
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    font-size: 18px;
-    margin-bottom: 25px; }
+.about .title {
+  color: #8A67A1;
+  text-align: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 60px; }
+
+.about p {
+  display: block;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 25px; }
 
 .contact-title {
   color: #8A67A1;
   font-family: 'DM Serif Display', serif;
-  font-size: 40px; }
+  font-size: 2.5rem; }
 
 .lead {
   color: rgba(0, 0, 0, 0.747);
@@ -350,6 +343,10 @@ body {
   .slide .container-btn {
     display: none; }
   .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  main .row {
     display: flex;
     flex-direction: column;
     justify-content: center; } }

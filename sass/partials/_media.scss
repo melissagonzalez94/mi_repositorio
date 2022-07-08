@@ -43,4 +43,11 @@ header .title {
        flex-direction: column;
        justify-content: center;
       }
+
+main .row {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+      }
+
 }
