@@ -71,12 +71,12 @@ body {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
-    margin: 25px;
-    padding: 20px;
+    margin: 40px;
+    padding: 10px;
     letter-spacing: 0.4rem;
-    color: #E37483; }
+    color: #e66173; }
 
 /* Cards */
 .card {
@@ -182,7 +182,8 @@ footer h4 {
   font-style: normal;
   font-weight: 600;
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-size: 20px; }
 
 footer .footerLinks {
   display: flex;
@@ -291,7 +292,7 @@ footer .footerLinks {
   font-size: 2.5rem; }
 
 .lead {
-  color: rgba(0, 0, 0, 0.747);
+  color: rgba(0, 0, 0, 0.822);
   margin-top: 10px; }
 
 .contact-body {
@@ -370,15 +371,6 @@ footer .footerLinks {
 
 .btnVioletMedium {
   background-color: #685DDE; }
-
-/* Mixins */
-.titlesFont {
-  font-size: 2rem;
-  font-weight: 600; }
-
-.subtitlesFont {
-  font-size: 1rem;
-  font-weight: 400; }
 
 /* Maps */
 .btnInstagram {
